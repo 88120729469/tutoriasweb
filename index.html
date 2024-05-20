@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoyo Educativo Integral</title>
+    <meta name="description" content="Ofrecemos tutorías académicas para estudiantes de todos los niveles y ramas de estudio, con un enfoque especial en enfermería.">
+    <meta name="keywords" content="tutorías, enfermería, apoyo académico, educación, asesorías, primaria, secundaria, universidad">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Apoyo Educativo Integral</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#comentarios">Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Apoyo Educativo Integral</h2>
+        <p>Ofrecemos tutorías en todas las asignaturas y niveles educativos, con un enfoque especial en enfermería.</p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Con 8 años de experiencia, hemos asesorado a estudiantes en universidades como EDP University, Universidad Regional de Miami, Sagrado Corazón y Universidad Interamericana de Puerto Rico. Utilizamos diversas plataformas como Canvas, Teams, y otras para ofrecer el mejor apoyo posible.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos tutorías en las siguientes asignaturas:</p>
+        <ul>
+            <li>Matemáticas</li>
+            <li>Historia</li>
+            <li>Física</li>
+            <li>Anatomía</li>
+            <li>Fisiología</li>
+            <li>Farmacología</li>
+            <li>Microbiología</li>
+            <li>Bioquímica</li>
+            <li>Enfermería Pediátrica</li>
+            <li>Enfermería Geriátrica</li>
+            <li>Enfermería Psiquiátrica</li>
+            <li>Enfermería Comunitaria</li>
+            <li>Cuidados Intensivos</li>
+            <li>Salud Pública</li>
+            <li>Y más...</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Teléfono: 203-3433403</p>
+        <p>Correo electrónico: reninmanuel@gmail.com</p>
+    </section>
+
+    <section id="comentarios">
+        <h2>Comentarios y Evaluaciones</h2>
+        <form id="comentarios-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" required></textarea><br><br>
+            <label for="evaluacion">Evaluación:</label>
+            <select id="evaluacion" name="evaluacion">
+                <option value="1">1 Estrella</option>
+                <option value="2">2 Estrellas</option>
+                <option value="3">3 Estrellas</option>
+                <option value="4">4 Estrellas</option>
+                <option value="5">5 Estrellas</option>
+            </select><br><br>
+            <label for="imagen">Subir Imagen:</label>
+            <input type="file" id="imagen" name="imagen"><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="comentarios-lista">
+            <!-- Los comentarios aparecerán aquí -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Apoyo Educativo Integral. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
